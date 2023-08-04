@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nov.css">
+    <link rel="shortcut icon" href="favicon.png.png">
+    <title>Panka</title>
+</head>
+
+<body>
+    <header>
+        <section id="banner"> <img src="media/pan/pan_de_elote.jpg"></section>
+        <section id="logo"> <img src="media/pan/free-vector.jpg"></section>
+        <section id="login">
+            <form id="form1" action="mostrar.php" method="get">
+
+                <legend>Acceso</legend>
+                <label for="nombre">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" />
+                <br />
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" />
+                <input type="submit" value="Ingresar" class="centrado" />
+                <center><a href="registrar.php" target="_blank">Registrate</a></center>
+            </form>
+        </section>
+
+
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="autos.html">Catalogo</a>
+        <a href="nov.html">Novedades</a>
+        <a href="geo.html">Ubicacion</a>
+            
+    </nav>
+
+    <main>
+        <article>
+            <p>En esta compañia nos esforzamos para darte lo mejor, asi que metimos nuevos postres para que disfrutes en compañia de los que mas quieres</p>
+            <p></p>
+            
+        </article>
+        <div class="container-all">
+            <center><h1>Nuestros clientes</h1></center>
+            <input type="radio" id="1" name="image-slide" hidden/>
+            <input type="radio" id="2" name="image-slide" hidden/>
+            <input type="radio" id="3" name="image-slide" hidden/>
+            <input type="radio" id="4" name="image-slide" hidden/>
+
+            <div class="slide">
+                <div class="item-slide">  
+                    <img src="media/pan/brownies2.jpg">
+                </div>
+
+                <div class="item-slide">
+                    <img src="media/pan/carlota.jpg">
+                </div>
+
+                <div class="item-slide">
+                    <img src="media/pan/rosca.jpg">
+                </div>
+
+                <div class="item-slide">
+                    <img src="media/pan/galletas.jpg">
+                </div>
+            </div>
+            <!-------------PAGINACION------------>
+            <div class="pagination">
+                <label for="1" class="pagination-item">
+                    <img src="media/pan/brownies2.jpg" class="sli">
+                </label>
+                
+
+                <label for="2" class="pagination-item">
+                    <img src="media/pan/carlota.jpg" class="sli">
+                </label>
+
+                <label for="3" class="pagination-item" >
+                    <img src="media/pan/rosca.jpg" class="sli">
+                </label>
+
+                <label for="4" class="pagination-item" >
+                    <img src="media/pan/galletas.jpg" class="sli">
+                </label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <aside id="foot_izq">
+            <div id="redes">
+                <h3>Siguenos en:</h3>
+                <ul id="sociales">
+                    <li>
+                        <a href="http://www.facebook.com" target="_blank"><img src="./media/redes/facebook.png" alt="redes" width="25px" height="px"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com" target="_blank"><img src="./media/redes/youtube.png" alt="redes" width="25px" height="px"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.twitter.com" target="_blank"><img src="./media/redes/gorjeo.png" alt="redes" width="25px" height="px"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.instagram.com" target="_blank"><img src="./media/redes/instagram.png" alt="redes" width="25px" height="px"></a>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+        <div id="qr">
+            <img src="media/redes/qr.png" alt="" width="50px">
+        </div>
+        <aside id="foot_der">
+            <ul>
+                <strong> <h3>Contactanos</h3> </strong>
+                <li>Josue Aquino Cruz</li>
+                <li>cruzajosue@gmail.com</li>
+                <li>https://github.com/Nayelli0801/proyecto_final</li>
+                <li>Ciudad Ju&aacute;rez, Chihuahua 2023</li>
+            </ul>
+
+        </aside>
+
+    </footer>
+</body>
+</html>

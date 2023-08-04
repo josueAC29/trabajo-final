@@ -1,0 +1,44 @@
+[
+  {
+    "precio": "120.00",
+    "id": 1,
+    "title": "galletas",
+    "thumbnailUrl": "http://joshuaac.000webhostapp.com/pan/galletas.jpg"
+  },
+  {
+    "precio": "80.00",
+    "id": 2,
+    "title": "brownies",
+    "thumbnailUrl": "http://joshuaac.000webhostapp.com/pan/brownies2.jpg"
+  },
+  {
+    "precio": "170.00",
+    "id": 3,
+    "title": "carlota",
+    "thumbnailUrl": "http://joshuaac.000webhostapp.com/pan/carlota.jpg"
+  },
+  {
+    "precio": "70.00",
+    "id": 4,
+    "title": "panquesito",
+    "thumbnailUrl": "http://joshuaac.000webhostapp.com/pan/panquesitos.jpg"
+  },
+  {
+    "precio": "110.00",
+    "id": 5,
+    "title": "pay de limon",
+    "thumbnailUrl": "http://joshuaac.000webhostapp.com/pan/pay.jpg"
+  },
+  {
+    "precio": "90.00",
+    "id": 6,
+    "title": "rosca",
+    "thumbnailUrl": "http://joshuaac.000webhostapp.com/pan/rosca.jpg"
+  },
+  {
+    "precio": "200.00",
+    "id": 7,
+    "title": "pan de elote",
+    "thumbnailUrl": "http://joshuaac.000webhostapp.com/pan/pan_de_elote.jpg"
+  }
+]
